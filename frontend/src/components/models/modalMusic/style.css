@@ -1,0 +1,17 @@
+.container-modal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container-card-modal{
+    background-color: #20305b;
+}
+
+.btn {
+    padding: 12px 20px;
+    background-color: #7fd300;
+    border-radius: 10px;
+    cursor: pointer;
+}

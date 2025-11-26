@@ -1,0 +1,39 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+    background-color: #151A27;
+}
+
+.nav-header ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+.nav-header ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.nav-header ul li a:hover {
+    color: #a4beff;
+}
+
+.container-btn {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.btn-primary {
+    padding: 8px 40px;
+    border-radius: 12px;
+    font-size: 16px;
+    text-decoration: none;
+    background-color: #37C25E;
+    color: #fff;
+}

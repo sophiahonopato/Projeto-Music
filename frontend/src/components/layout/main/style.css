@@ -1,0 +1,39 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background-color: #151A27;
+    height: 95vh;
+    padding: 70px;
+    background-image: url('../../../assets/backgroundMain.svg');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100%;
+}
+
+main h1, main h1 span {
+    font-size: 95px;
+    font-family: "Anton", sans-serif;
+}
+
+main h1{
+    text-align: center;
+    width: 740px;    
+    color: #fff;
+}
+
+main p{
+    color: #fff;
+    width: 600px;
+    text-align: center;
+}
+
+main a{
+    padding: 16px 24px;
+    background-color: #19c349;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 12px;
+    box-shadow: 0 20px 100px -12px rgba(61, 199, 95, 0.6);
+}

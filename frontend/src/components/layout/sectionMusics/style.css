@@ -1,0 +1,48 @@
+.section-music{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    text-align: center;
+    padding: 60px 0px;
+}
+
+.section-music h2{
+    color: #fff;
+}
+
+.container-cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    gap: 40px;
+}
+
+.card-music{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: #25355d;
+    padding: 30px;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.card-music:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 10px 10px rgba(93, 255, 93, 0.136);
+}
+
+.card-music img{
+    border-radius: 10px;
+    width: 200px;
+}
+
+.btn {
+    padding: 12px 20px;
+    background-color: #7fd300;
+    border-radius: 10px;
+    cursor: pointer;
+}
